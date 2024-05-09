@@ -1,0 +1,31 @@
+.three {
+    display: flex;
+    justify-content: center;
+    /* Centers the whole container horizontally */
+    align-items: center;
+    /* Centers the whole container vertically */
+    height: 100vh;
+    /* Adjust height as necessary, here it's set to full viewport height */
+    background-color: #1c2b3a;
+}
+
+.content {
+    display: flex;
+    /* Enables flexbox for inner content */
+    align-items: center;
+    /* Vertically aligns the text and video */
+}
+
+.text {
+    margin-right: 20px;
+    /* Adds some space between the text and the video */
+    max-width: 400px;
+    /* Restricts the text width for better readability */
+}
+
+.centered-video {
+    width: 560px;
+    /* Width of the iframe */
+    height: 315px;
+    /* Height of the iframe */
+}
