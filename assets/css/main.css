@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h2,
+p,
+a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background: #2e3842;
+	color: #fff;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 15pt;
+	font-weight: 400;
+	letter-spacing: 0.075em;
+	line-height: 1.65em;
+}
+
+.Menu {
+	position: sticky;
+	top: 0;
+	/* Adjusted to remove space at the top */
+	padding: 10px 0;
+	background: #6A798C;
+	text-align: center;
+	z-index: 3;
+	display: block;
+}
+
+.Menu a {
+	font-size: 25px;
+	text-decoration: none;
+	color: #fff;
+	background: #6A798C;
+	margin: 0 10px;
+	padding: 10px 30px;
+	/* 增加 padding 值使得链接的区域变大 */
+}
+
+.Menu a:hover {
+	background-color: #1a2b3f;
+	color: #fff;
+}
+
+.part-title {
+	padding: 40px;
+	width: 100%;
+	font-family: 'Gill Sans';
+	font-size: 50px;
+	text-align: center;
+}
+
+.part-t {
+	font-family: 'Gill Sans';
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+	/* 添加一個頂部間距 */
+}
