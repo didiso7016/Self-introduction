@@ -1440,27 +1440,3 @@ a:hover {
   max-width: 50%;
   padding: 15px;
 }
-
-<<<<<<< HEAD
-
-=======
-/* Margin Bottom for items */
->>>>>>> f7eafe9109cd9139d4d63355c309cde61d2bfc93
-.mb-4 {
-  margin-bottom: 30px;
-}
-
-<<<<<<< HEAD
-
-strong {
-  font-weight: bold;
-  color: #df1529;
-
-=======
-/* Bold text */
-strong {
-  font-weight: bold;
-  color: #df1529;
-  /* 粉藍色 */
->>>>>>> f7eafe9109cd9139d4d63355c309cde61d2bfc93
-}
